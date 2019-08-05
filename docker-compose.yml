@@ -1,0 +1,13 @@
+version: '3'
+services:
+  xp-logger:
+    build:
+      context: .
+    ports:
+      - 80:80
+
+networks:
+  default:
+    driver: bridge
+
+
